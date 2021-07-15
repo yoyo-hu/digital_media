@@ -362,7 +362,9 @@ def ChoosePicFileOrGetResult(option):
 ### 3.4 图片和视频之间的人脸替换运行主程序（main_video.py)
 
 该程序通过 tkinter 生成一个供用户与程序进行交互的图像界面，该界面如下：
+
 ![](readme_imgs/3.png)
+
 按照要求依次选择文件就可以运行程序了，注意退出需要在视频生成后再退出，防止视频损坏。
 其中“选择视频文件”的按钮调用函数`ChoosePicFileOrGetResult(1)`,“选择图片文件"的按钮调用函数`ChoosePicFileOrGetResult(2)`,“得到换脸结果"的按钮调用函数`ChoosePicFileOrGetResult(3)`
 
